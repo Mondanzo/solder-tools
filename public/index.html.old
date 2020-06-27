@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solder Tools</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="text-center text-3xl mt-8">Solder Tools</h1>
+    <div class="flex justify-center">
+      <div>
+        <div
+          id="curseforge"
+          class="rounded overflow-hidden shadow-lg max-w-lg w-full p-8 m-12 bg-orange-600 text-white"
+        >
+          <h1 class="text-3xl">Add new mod from curseforge</h1>
+          <div class="flex mt-2">
+            <input
+              id="cf-search"
+              type="text"
+              class="rounded-l p-2 text-black m-0"
+              placeholder="Search Mods"
+            />
+            <button id="cf-searchBtn" class="rounded-r m-0 bg-orange-800 p-2">
+              Search
+            </button>
+          </div>
+          <p class="mt-4">Search Results</p>
+          <div
+            id="cf-searchResults"
+            class="h-64 overflow-y-scroll overflow-x-hidden"
+          >
+            <div
+              class="bg-orange-700 flex justify-between pl-4 border-b-2 border-orange-300 border-solid"
+            >
+              <div>
+                <h1 class="text-2xl m-0">Botania</h1>
+                <p>Vazkii_</p>
+              </div>
+              <button class="text-white bg-orange-800 px-8 b">
+                Add
+              </button>
+            </div>
+          </div>
+		  </div>
+		  <div
+          id="curseforge-v"
+          class="rounded overflow-hidden shadow-lg max-w-lg w-full p-8 m-12 bg-orange-600 text-white"
+        >
+      </div>
+      <div>
+        <div
+          id="uploadmod"
+          class="rounded overflow-hidden shadow-lg max-w-lg w-full p-8 m-12 bg-teal-700 text-white"
+        >
+          <h1 class="text-3xl">Upload mod</h1>
+          <input type="file" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

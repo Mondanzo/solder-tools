@@ -1,0 +1,8 @@
+.cache/
+dist/
+node_modules/
+.env
+*lock*
+*.log
+vscode/
+.idea/

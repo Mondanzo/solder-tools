@@ -1,0 +1,39 @@
+{
+  "name": "soldertools",
+  "version": "1.0.0",
+  "description": "Solder Tools",
+  "main": "index.js",
+  "repository": "https://github.com/Mondanzo/SolderTools",
+  "author": "Mondanzo",
+  "scripts": {
+    "run": "node .",
+    "dev": "nodemon ."
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cookie-session": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-validator": "^6.6.0",
+    "jszip": "^3.5.0",
+    "mariadb": "^2.4.0",
+    "mc-curseforge-api": "^2.1.0",
+    "tailwindcss": "^1.4.6",
+    "tmp": "^0.2.1",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-js-modal": "^2.0.0-rc.3",
+    "vue-select": "^3.10.5",
+    "vue-toastify": "^1.8.0"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.2",
+    "nodemon": "^2.0.4",
+    "parcel-bundler": "^1.12.4",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
